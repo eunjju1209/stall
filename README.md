@@ -11,3 +11,9 @@
 - `npm test`: Run tests & generate coverage report
 - `npm run dc:up`: Start the stack with Docker Compose
 - `npm run dc:down`: Stop the stack with Docker Compose
+
+** 서버 환경셋팅
+MSA 프레임워크인 Moleculer 이용해서 서비스를 만들었습니다.
+
+local 에서 테스트 해볼 수 있는 방법은
+nats-server 설치 후, 테스트 해 볼 수 있습니다.
