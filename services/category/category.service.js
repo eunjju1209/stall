@@ -1,7 +1,7 @@
 "use strict";
 
 module.exports = {
-    name: "foods",
+    name: "category",
 
     /**
      * Service settings
@@ -40,6 +40,17 @@ module.exports = {
             },
             handler(ctx) {
                 return `Welcome, ${ctx.params.name}`;
+            }
+        },
+
+        list: {
+            description: "카테고리 목록을 조회합니다.",
+            cache: false,
+            async handler({ meta, params }) {
+
+                console.log(1234);
+
+
             }
         }
     },
